@@ -1,0 +1,208 @@
+To run JS on browser we need to create a html file
+console.log() for printing
+JS is dynamically typed
+
+to define name or variable use let, var, const
+var usage before 2015
+
+ES6 new rules gave let and const
+    let helps to stop redeclaration of any variable but variable may be updatable
+    const is for define constant, always declare const simultaneously
+
+
+Scope of var: Global
+Scope of let and const: Block
+
+{} is a Block
+
+Data Types in JS - typeof 
+    Primitive Data Types
+        Number
+        String
+        Boolean
+        Undefined
+        Null
+        BigInt
+        Symbol
+
+    Non Primitive Data Types
+        Objects =>  key:value
+        Arrays
+        Functions
+
+obj.fullName or obj["fullName"]
+
+
+Operators:
+    + - * /
+    Modulus % gives remainder
+    Exponential ** power
+    
+    Unary
+        Increment a++
+        Decrement b--
+
+    Assignment Operators
+        =
+        +=
+        -=
+        *=
+        /=
+        %=
+        **=
+
+    Comparison
+        ==
+        <
+        >
+        <=
+        >=
+        !=
+        
+        used to compare with typeof variable
+            ===
+            !==
+
+
+    Logical
+        AND &&
+        OR ||
+        NOT !
+
+Conditional Statements
+    if(){}
+    else(){}
+    else if(){}
+
+Ternary Operators
+true/false
+conditon ? true_out : false_out
+
+Loops in JS
+    for(let i = 0; i<=5; i++){}
+    while(Condition){}
+    do{}while(Condition);
+    for(let val of strVar){}
+    for(let key in objVar){}
+
+Strings
+    Template Literals
+        `String here`
+        `${1+2+3}` String interpolation
+
+    Escape characters
+        \n next line
+        \t tab space
+
+    Methods
+        str.length
+        str.toUpperCase()
+        str.toLowerCase()
+        str.trim() remove spaces
+        str.slice(start, end)
+        str.concat(str2)
+        str.replace(searchVal, replaceValue) and str.replaceAll(s1,s2)
+        str.charAt(index)
+        
+Arrays
+    Methods
+        push()
+        pop()
+        toString()
+        concat(arr2)
+        unshift()
+        shift()
+        slice()
+        splice()
+
+Functions
+    Definition= function functionName(){
+        //some code
+    }
+    Call= functionName()
+    function functionName(param1, param2){
+        //some code
+    }
+
+    Arrow Functions
+        const functionName = (p1, p2) =>{
+            //do some work
+        }
+
+    Array Methods
+    arr.forEach(callbackfunction)
+    arr.map(callback function(val,idx,arr))
+    arr.filter(func)
+    arr.reduce
+    Higher Order Functions = those which take functions as params or return the functions
+
+
+DOM
+    Document Object Model
+    console.dir(window.document)
+
+    consists of a tree like structure:
+        contains Nodes, 
+
+    DOM Manipulation
+        document.getElementById("myId")
+        document.getElementByClassName("myClass")
+        document.getElementByTagName("p")
+
+    Query selector
+        document.querySelector()
+        document.querySelectorAll()
+
+    Properties
+        tagName = returns tag for element nodes
+        innerText = returns the text content of the element and all its children
+        innerHTML = returns the plain text or HTML contents in the element
+        textContent = returns textual content even for hidden elements 
+
+    DOM tree
+        Parent
+        Child 
+        Siblings
+    
+    Nodes in DOM
+        text nodes
+        comment
+        elements
+    
+    div.getAttribute()
+    div.setAttribute()
+
+    Insert elements
+        node.append(el)
+        node.prepend(el)
+        node.before(el)
+        node.after(el)
+
+    Delete elements
+        node.delete()
+
+    STUDY appendChild() and removeChild()
+
+EVENTS in JS
+    Change in state of an object
+
+    Mouse, keyboard, form, print events etc 
+
+    Event object
+        console.log(evt.type)
+        console.log(evt.target)
+
+    Event Listeners
+        node.addEventListeners(event, callback)
+        node.removeEventListener(event, callback)
+
+        
+
+
+
+
+
+
+
+
+
